@@ -117,16 +117,18 @@
 #ifndef Z_CS_PIN
   #define Z_CS_PIN         P1_10
 #endif
+#define Z2_STEP_PIN        P0_01
+#define Z2_DIR_PIN         P0_00
+#define Z2_ENABLE_PIN      P0_10
+#ifndef Z2_CS_PIN
+  #define Z2_CS_PIN        P1_01
+#endif
 
 #define E0_STEP_PIN        P2_13
 #define E0_DIR_PIN         P0_11
 #define E0_ENABLE_PIN      P2_12
 #ifndef E0_CS_PIN
   #define E0_CS_PIN        P1_08
-#endif
-
-#ifndef E1_CS_PIN
-  #define E1_CS_PIN        P1_01
 #endif
 
 //
