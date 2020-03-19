@@ -687,7 +687,7 @@
   #endif
 
   // Set number of iterations to align
-  #define Z_STEPPER_ALIGN_ITERATIONS 3
+  #define Z_STEPPER_ALIGN_ITERATIONS 10
 
   // Enable to restore leveling setup after operation
   #define RESTORE_LEVELING_AFTER_G34
@@ -696,7 +696,7 @@
   #define G34_MAX_GRADE  5  // (%) Maximum incline G34 will handle
 
   // Stop criterion. If the accuracy is better than this stop iterating early
-  #define Z_STEPPER_ALIGN_ACC 0.02
+  #define Z_STEPPER_ALIGN_ACC 0.01
 #endif
 
 // @section motion
